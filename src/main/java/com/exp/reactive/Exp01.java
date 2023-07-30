@@ -33,7 +33,7 @@ public class Exp01 {
 		getNamePublisher()
 				.subscribeOn(Schedulers.boundedElastic())
 				.subscribe(
-					s -> System.out.println("IN diffrent thread: " + s)
+					s -> System.out.println("IN different thread: " + s)
 				);
 		getNamePublisher();
 	}
